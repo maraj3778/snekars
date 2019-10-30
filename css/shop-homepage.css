@@ -1,0 +1,262 @@
+/*!
+ * Start Bootstrap - Shop Homepage (https://startbootstrap.com/template-overviews/shop-homepage)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-shop-homepage/blob/master/LICENSE)
+ */
+body {
+  padding-top: 56px;
+}
+
+.dropdown {
+    margin-bottom: 52px;
+}
+.head {
+    display: inline-block;
+    margin-top: 22px;
+    background-color: grey;
+    color: aliceblue;
+    width: 100%;
+    margin-bottom: -71px;
+    border: 2px solid grey;
+    border-radius:8px;
+}
+
+.h-100 {
+    height: 87%!important;
+    margin-top: 84px;
+}
+
+.header-in {
+    display: inline-block;
+    margin-top: 22px;
+    width: 100%;
+    margin-bottom: -71px;
+}
+
+.media {
+    margin-left: -113px;
+    margin-top: -42px;
+}
+
+.policy {
+    margin-top: -56px;
+    margin-left: 3px;
+}
+
+.policy>a {
+    color: red;
+    float: right;
+    padding: 3px;
+    margin-top: 4px;
+}
+
+
+.add_to_cart_block .price {
+    color: #c01508;
+    text-align: center;
+    font-weight: bold;
+    font-size: 200%;
+    margin-bottom: 0;
+}
+.add_to_cart_block .price_discounted {
+    color: #343a40;
+    text-align: center;
+    text-decoration: line-through;
+    font-size: 140%;
+}
+
+.col {
+    margin-top: 35px;
+}
+
+.card bg-light {
+    margin-top: 35px;
+}
+
+/*Customer Satisfaction deisgn*/
+.progress {
+    display: flex;
+    height: 1rem;
+    overflow: hidden;
+    font-size: .75rem;
+    background-color: #6c757d;
+    border-radius: .25rem;
+}
+
+
+/*Counter Design*/
+#circle
+{
+  	 width: 220px;
+    height: 117px;
+	background: green;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	float:left;
+ 	margin:5px;
+}
+.count, .counted
+{
+  line-height: 100px;
+  color:white;
+  margin-left:30px;
+  font-size:77px;
+}
+
+
+/*Conter Design End*/
+
+
+/*carts design*/
+.dropdown-menu.show {
+    display: block;
+    margin-left: 84%;
+    margin-top: -22px;
+}
+/*
+Hover Function
+*/
+.hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+
+.hovereffect img {
+  display: block;
+  position: relative;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.hovereffect:hover img {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.hovereffect2 {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+
+.hovereffect2 img {
+  display: block;
+  position: relative;
+  -webkit-transition: all 0.4s cubic-bezier(0.88,-0.99, 0, 1.81);
+  transition: all 0.4s cubic-bezier(0.88,-0.99, 0, 1.81);
+}
+
+.hovereffect2:hover img {
+  -ms-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+
+/*} Hover End*/
+
+/*Hover Try*/
+
+.hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+
+.hovereffect .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.6);
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transform: translate(460px, -100px) rotate(180deg);
+  -ms-transform: translate(460px, -100px) rotate(180deg);
+  transform: translate(460px, -100px) rotate(180deg);
+  -webkit-transition: all 0.2s 0.4s ease-in-out;
+  transition: all 0.2s 0.4s ease-in-out;
+}
+
+.hovereffect img {
+  display: block;
+  position: relative;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.hovereffect h2 {
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  font-size: 17px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.hovereffect a.info {
+  display: inline-block;
+  text-decoration: none;
+  padding: 7px 14px;
+  text-transform: uppercase;
+  color: #fff;
+  border: 1px solid #fff;
+  margin: 50px 0 0 0;
+  background-color: transparent;
+  -webkit-transform: translateY(-200px);
+  -ms-transform: translateY(-200px);
+  transform: translateY(-200px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.hovereffect a.info:hover {
+  box-shadow: 0 0 5px #fff;
+}
+
+.hovereffect:hover .overlay {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+  -webkit-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  transform: translate(0px, 0px);
+}
+
+.hovereffect:hover h2 {
+  -webkit-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  transform: translateY(0px);
+  -webkit-transition-delay: 0.5s;
+  transition-delay: 0.5s;
+}
+
+.hovereffect:hover a.info {
+  -webkit-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  transform: translateY(0px);
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+
+/*Hover try end*/
